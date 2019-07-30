@@ -1,0 +1,22 @@
+{
+  "name": "route-sagas",
+  "version": "0.0.1",
+  "description": "Start sagas from react-router changes",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robby Ronk",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "dependencies": {
+    "lodash.find": "^4.6.0",
+    "react-router-dom": "^5.0.1",
+    "redux-saga": "^1.0.5"
+  }
+}
